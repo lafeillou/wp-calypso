@@ -85,7 +85,16 @@ export default {
 		defaultVariation: 'group_0',
 		allowExistingUsers: true,
 	},
-	minimizeFreePlanV2: {
+	minimizedFreePlanForSignedUser: {
+		datestamp: '20180308',
+		variations: {
+			original: 50,
+			minimized: 50,
+		},
+		defaultVariation: 'original',
+		allowExistingUsers: true,
+	},
+	minimizedFreePlanForNonSignedUser: {
 		datestamp: '20180308',
 		variations: {
 			original: 50,
